@@ -1,0 +1,14 @@
+.dv-busqueda input{
+    width: 100%;
+    line-height: 40px;
+    font-size: 22px;
+}
+.dv-resultados{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/* * HERENCIA EXCLUSIVA DE HIJOS*/
+.dv-resultados > * {
+    flex-basis: 27%;
+}
