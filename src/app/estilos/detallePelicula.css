@@ -1,0 +1,26 @@
+.dv-detalle-detalle{
+    margin: 20px;
+}
+
+.dv-datos-detalle,
+.dv-main-detalle{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.dv-main-detalle > div{
+    flex-basis: 33%;
+    
+}
+
+.dv-detalle-poster > img{
+    width: 70%;
+    object-fit: contain;
+}
+
+.dv-datos-detalle > * {
+    flex-basis: 25%;
+    
+}

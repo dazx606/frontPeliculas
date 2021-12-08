@@ -1,0 +1,70 @@
+.form-general{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/* * HERENCIA EXCLUSIVA DE HIJOS*/
+.form-general > * {
+    flex-basis: 33%;
+}
+
+.area{
+    box-sizing: border-box;
+	
+	border-radius: 3px;
+	resize: none;
+	font-size: 20px;
+	line-height: 24px;
+	overflow: auto;
+	height: auto;
+	padding: 8px;
+	box-shadow: 0px 4px 10px -8px black;
+}
+
+input {
+    
+    border: 1px solid #555;
+	border-radius: 3px;
+	resize: none;
+	font-size: 20px;
+	line-height: 12px;
+	overflow: auto;
+	height: auto;
+	box-shadow: 0px 4px 10px -8px black;
+}
+.btn-add{
+    font-size: 14px;
+    margin-left: 5px;
+    padding: 4px;
+    
+}
+.btn-add:hover{
+    background-color: #555;
+    color: white;
+}
+
+
+.btn-save{
+    font-size: 18px;
+    margin-left: 25%;    
+    margin-top: 5px;
+    width: 50%; 
+    margin-bottom: 7px;    
+    
+}
+
+
+.tabla {
+    
+    width: 100%;
+}
+
+.tabla button{
+    margin: 3px;
+    
+}
+
+.titulo{
+    text-align: center;
+}
+
